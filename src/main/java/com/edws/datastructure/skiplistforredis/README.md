@@ -93,7 +93,7 @@ System.out.println("删除成功: " + deleted);
 可以运行 `SkipListDemo` 类来查看完整的演示：
 
 ```bash
-java com.edws.datastructure.skiplist.SkipListDemo
+java com.edws.datastructure.skiplistforredis.SkipListDemo
 ```
 
 ## 运行测试

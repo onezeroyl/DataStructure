@@ -1,4 +1,4 @@
-package com.edws.datastructure.skiplist;
+package com.edws.datastructure.skiplistforredis;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -18,7 +18,7 @@ public class SkipListTest {
     }
 
     @Test
-    public void testInsertAndSearch() {
+    public void testPutAndSearch() {
         // 测试插入和查找
         skipList.insert(90, "Alice");
         skipList.insert(85, "Bob");
